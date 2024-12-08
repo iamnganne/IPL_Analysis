@@ -1,4 +1,4 @@
-**#IPL Analysis Project with Apache Spark and Databricks**
+_**IPL Analysis Project with Apache Spark and Databricks**_
 
 **Overview**
 This project demonstrates the use of Apache Spark on Databricks to analyze and process large-scale IPL cricket data. The pipeline is designed for efficient data loading, preprocessing, and in-depth analysis, with a focus on performance optimization and data visualization.
@@ -26,7 +26,7 @@ This project demonstrates the use of Apache Spark on Databricks to analyze and p
 + AWS S3: Data storage and retrieval.
 + PySpark: For data manipulation and processing.
 
-Setup Instructions
+**Setup Instructions**
 + Upload Data to S3: Store IPL datasets in an S3 bucket.
 + Create a Databricks Cluster: Set up a Databricks cluster with Apache Spark runtime.
 + Connect to S3: Configure Databricks to read data from your S3 bucket.
