@@ -2,9 +2,9 @@
 Overview
 This project demonstrates the use of Apache Spark on Databricks to analyze and process large-scale IPL cricket data. The pipeline is designed for efficient data loading, preprocessing, and in-depth analysis, with a focus on performance optimization and data visualization.
 
-#Features
-- Data Ingestion: Load IPL datasets from AWS S3 into Databricks.
-- Schema Design: Structured data into multiple tables such as matches, players, and ball-by-ball details.
+Features
++ Data Ingestion: Load IPL datasets from AWS S3 into Databricks.
++ Schema Design: Structured data into multiple tables such as matches, players, and ball-by-ball details.
 #Data Preprocessing:
 - Filtered valid deliveries.
 - Calculated cumulative scores.
