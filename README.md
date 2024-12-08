@@ -5,21 +5,26 @@ This project demonstrates the use of Apache Spark on Databricks to analyze and p
 Features
 + Data Ingestion: Load IPL datasets from AWS S3 into Databricks.
 + Schema Design: Structured data into multiple tables such as matches, players, and ball-by-ball details.
+
 Data Preprocessing
 - Filtered valid deliveries.
 - Calculated cumulative scores.
 - Used Spark Window Functions for advanced data categorization.
+
 Data Analysis
 - Assessed the impact of winning coin tosses on match outcomes.
 - Identified the highest-scoring players.
+
 Performance Optimization
 - Utilized Spark SQL for faster queries.
 - Leveraged Databricks for distributed processing and efficient storage.
+
 Technologies Used
 - Apache Spark: For distributed data processing and analytics.
 - Databricks: Cloud-based platform for scalable data engineering and analytics.
 - AWS S3: Data storage and retrieval.
 - PySpark: For data manipulation and processing.
+  
 Setup Instructions
 - Upload Data to S3: Store IPL datasets in an S3 bucket.
 - Create a Databricks Cluster: Set up a Databricks cluster with Apache Spark runtime.
